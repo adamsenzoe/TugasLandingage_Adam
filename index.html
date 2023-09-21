@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <title>KamarKita</title>
+
+</head>
+
+<body>
+    <header>
+        <nav class="container-navbar">
+            <div class="logo-navbar"><img src="images/logo.png" alt="logo" width="77px" height="61px"></div>
+            <!-- https://imgur.com/a/aqSKiiY -->
+            <div class="button-menu">
+                <ul>
+                    <li><a href="#about"><button class="btn">About</button></a></li>
+                    <li><a href="#contact"><button class="btn">Service</button></a></li>
+                    <li><a href="#sign-up"><Button class="signup">Sign Up</Button></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <div id="image-head">
+                <img src="images/header-image.png" alt="header-image" width="100%" height="600px">
+                <!-- https://imgur.com/a/fHDuB6N -->
+            </div>
+                <div class="text-button">
+                    <h1><span>Pesan Penginapan</span><br>
+                        Jadi Lebih Mudah.</h1>
+                        <br>
+                        <a href="#content"><button class="ButtonMore"> More info </button></a>
+                        <a href="#"><button class="ButtonGetStarted"> Get Started </button></a>
+                </div>
+        </section>
+
+        <section>
+            <div id="content">
+                <div class="content-container">
+                    <div>
+                        <img src="images/image-hotel.png" alt="hotel-image">
+                        <!-- https://imgur.com/iSIilpi -->
+                    </div>
+                    <div class="text">
+                        <h4> Hotel </h4>
+                        <p>
+                            Hotel adalah tempat yang tepat untuk menginap, <br>
+                            baik untuk berlibur, bekerja, atau urusan lainnya.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-container">
+                    <div>
+                        <img src="images/image-villa.png" alt="villa-image">
+                        <!-- https://imgur.com/jxsZanL -->
+                    </div>
+                    <div class="text">
+                        <h4> Villa </h4>
+                        <p>
+                            Hotel adalah tempat yang tepat untuk menginap, <br>
+                            baik untuk berlibur, bekerja, atau urusan lainnya.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-container">
+                    <div>
+                        <img src="images/image-kostan.png" alt="kostan-image">
+                        <!-- https://imgur.com/LzIIGNF -->
+                    </div>
+                    <div class="text">
+                        <h4> Kos-kosan </h4>
+                        <p>
+                            Hotel adalah tempat yang tepat untuk menginap, <br>
+                            baik untuk berlibur, bekerja, atau urusan lainnya.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="about">
+                <div class="image-about">
+                    <img src="images/image-whykamarkitaa.png" alt="image-whykamarkita" width="450px" height="530px">
+                </div>
+                <div class="text-about">
+                    <h3>Kenapa harus 'KamarKita' ?</h3>
+                    <br>
+                    <p>
+                        Kami menyediakan beberapa jenis Penginapan yang bisa anda pilih, <br>
+                        yang berlokasi di sekitar kota anda  ataupun di luar lokasi kota anda,<br>
+                        seperti <b>Hotel, Villa, dan Kost-kostan</b>
+                        <br>
+                    </p>
+                    <br>
+                    <p>
+                        <b>KamarKita</b> adalah aplikasi pemesanan penginapan <br>
+                        Yang dirancang khusus untuk pengguna lokal. <br>
+                        Aplikasi ini memungkinkan pengguna untuk menemukan <br>
+                        dan memesan kamar <b><span>Hotel</span>, <span>Villa</span>, dan <span>Kost-kostan</span></b> milik warga lokal.
+                    </p>
+                    <br>
+                    <p>
+                        <b>KamarKita</b> menargetkan pengguna lokal atau wisatawan <br>
+                        yang mencari penginapan yang terjangkau dan nyaman.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="contact-detail">
+
+                    <form id="myForm">
+                        <h1>Hubungi kami kebutuhan anda.</h1>
+                
+                        <div class="form-group">
+                        <div class="input-group">
+                            <label for="name">Name</label>
+                            <input 
+                            id="name"
+                            type="text" 
+                            placeholder=" Masukan nama anda " 
+                            />
+                        </div>
+                
+                        <div class="input-group">
+                            <label for="city">City</label>
+                            <input 
+                            id="city" 
+                            type="text" 
+                            placeholder=" Masukan kota anda " 
+                            >
+                        </div>
+                
+                        <div class="input-group">
+                            <label for="email">Email</label>
+                            <input
+                            id="email" 
+                            type="text"
+                            placeholder=" Masukan email anda "
+                            />
+                        </div>
+                
+                        <div class="input-group">
+                            <label for="zip-code">Zip-Code</label>
+                            <input
+                            id="zip-code"
+                            type="number"
+                            placeholder=" Masukan Zip-Code anda"
+                            />
+                        </div>
+                        </div>
+                
+                        <div class="checkbox">
+                        <label id="check">
+                            Dengan ini saya menyatakan data yang diisi pada form ini adalah benar
+                            dan telah sesuai
+                        </label><br /><br />
+                        <input 
+                            id="status" 
+                            type="checkbox"
+                            /> Saya Setuju
+                        </div>
+                
+                        <button id="submit" type="submit">Submit</button>
+                
+                        <div id="warning"></div>
+                    </form>
+
+                <div id="location">
+                    <h1>Lokasi kantor kami</h1><br>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126929.23497553477!2d106.72107667374917!3d-6.192434322802309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f57a9bc2c1df%3A0x1cf9af163696d7e0!2sKamar%20Kita%20sunter%20jaya!5e0!3m2!1sid!2sid!4v1695216564925!5m2!1sid!2sid" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <!-- https://imgur.com/a/Yo97grx -->
+                </div>
+            </div>
+        </section>
+
+        <footer id="footer">
+            <div>
+                <b><h1>KamarKita</h1></b>
+                <p>Pesan Penginapan Jadi Lebih Mudah.</p>
+            </div>
+        </footer>
+
+
+    </main>
+    <footer></footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
